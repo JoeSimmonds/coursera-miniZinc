@@ -1,0 +1,26 @@
+{
+    "openFiles": [
+        "1.1_hello.mzn",
+        "1.6_seq.mzn",
+        "1.2_io.mzn",
+        "1.3_x110.mzn",
+        "1.4a_xopt.mzn",
+        "1.4b_xopt-alt.mzn",
+        "1.5a_array.mzn",
+        "1.5b_array.mzn"
+    ],
+    "openTab": 1,
+    "projectFiles": [
+        "1.1_hello.mzn",
+        "1.2_io.mzn",
+        "1.3_x110.mzn",
+        "1.4a_xopt.mzn",
+        "1.4b_xopt-alt.mzn",
+        "1.5a_array.mzn",
+        "1.5b_array.mzn",
+        "1.6_seq.mzn"
+    ],
+    "selectedBuiltinConfigId": "org.gecode.gecode",
+    "selectedBuiltinConfigVersion": "6.3.0",
+    "version": 106
+}

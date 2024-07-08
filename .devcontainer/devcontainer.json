@@ -1,0 +1,9 @@
+{
+    "image": "minizinc/minizinc",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {
+            "ppa": true,
+            "version": "latest"
+        }
+    }
+}

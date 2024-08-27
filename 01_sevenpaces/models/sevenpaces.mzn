@@ -4,7 +4,7 @@ array[int] of CHR: word1 = [s, e, v, e, n];
 array[int] of CHR: word2 = [p, a, c, e, s];
 array[int] of CHR: total = [v, e, r, s, e];
 
-USEDLETTERS = {letter | letter in CHR where letter in word1 ++ word2 ++ total}; 
+allwords = word1 ++ word2 ++ total; 
 
 constraint firstLetterNonZero(word1);
 constraint firstLetterNonZero(word2);

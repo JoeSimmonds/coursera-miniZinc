@@ -41,4 +41,45 @@ array[int] of CHR: allwords;
 enum USEDLETTERS = U(array2set(allwords));
 array[USEDLETTERS] of var 0..9: digits;
 
-constraint all_different(digits);
+
+%%%%%%%%%%%%%%%%%%%%%
+
+array[int] of CHR: word1 = [b, e, a, n, s];
+array[int] of CHR: word2 = [b, e, a, n, s];
+array[int] of CHR: total = [c, r, y, i, n, g];
+
+
+
+allwords = word1 ++ word2 ++ total;
+
+constraint alldifferent(digits);
+
+var int: n1 = numeric(word1);
+var int: n2 = numeric(word2);
+var int: nt = numeric(total);
+
+constraint n1 + n2 = nt;
+constraint firstLetterNonZero(word1);
+constraint firstLetterNonZero(word2);
+constraint firstLetterNonZero(total);
+
+output  " \(n1) \n" ++
+        " \(n2) \n" ++ 
+        "-------------\n" ++
+        "\(nt)\n" ++
+        "-------------\n"
+
+
+
+% USEDLETTERS = {letter | letter in CHR where letter in word1 ++ word2 ++ total}; 
+
+% constraint firstLetterNonZero(word1);
+% constraint firstLetterNonZero(word2);
+% constraint firstLetterNonZero(total);
+
+% constraint numeric(word1) + numeric(word2) == numeric(total);
+
+% output  "  \(B) \(E) \(E) \(N) \(S) + \n" ++
+%         "  \(B) \(E) \(A) \(N) \(S) \n" ++
+%         "-----------\n" ++ 
+%         "\(C) \(R) \(Y) \(I) \(N) \(G)\n";

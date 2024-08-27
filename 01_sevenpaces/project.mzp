@@ -1,24 +1,27 @@
 {
-	"projectFiles": [
-		"models/beanscrying.mzn",
-		"models/beanscrying.mzc.mzn",
-		"models/caotest.mzn",
-		"models/sevenpaces.mzc.mzn",
-		"models/cuhkmelb.mzc.mzn",
-		"models/sevenpaces.mzn",
-		"models/cuhkmelb.mzn",
-		"models/caotest.mzc.mzn",
-		"data/empty.dzn",
-		"_mooc"
-	],
-	"openFiles": [
-		"models/beanscrying.mzn",
-		"models/caotest.mzn",
-		"models/sevenpaces.mzn",
-		"models/cuhkmelb.mzn"
-	],
-	"openTab": 0,
-	"version": 106,
-	"selectedBuiltinConfigId": "org.gecode.gecode",
-	"selectedBuiltinConfigVersion": "6.3.0"
+    "openFiles": [
+        "models/beanscrying.mzn",
+        "models/common.mzn",
+        "models/caotest.mzn",
+        "models/sevenpaces.mzn",
+        "models/sevenpaces.mzc.mzn"
+    ],
+    "openTab": 1,
+    "projectFiles": [
+        "_mooc",
+        "data/empty.dzn",
+        "models/beanscrying.mzc.mzn",
+        "models/beanscrying.mzn",
+        "models/beanscrying2.mzn",
+        "models/caotest.mzc.mzn",
+        "models/caotest.mzn",
+        "models/common.mzn",
+        "models/cuhkmelb.mzc.mzn",
+        "models/cuhkmelb.mzn",
+        "models/sevenpaces.mzc.mzn",
+        "models/sevenpaces.mzn"
+    ],
+    "selectedBuiltinConfigId": "org.gecode.gecode",
+    "selectedBuiltinConfigVersion": "6.3.0",
+    "version": 106
 }
